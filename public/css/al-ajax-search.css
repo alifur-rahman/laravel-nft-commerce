@@ -1,0 +1,61 @@
+ /* search box css  */
+ .al-ajax-search {
+    position: relative;
+}
+.al-show-search_result {
+	box-shadow: 1px 1px 6px #ffffff14;
+	border-bottom: 1px solid #ffffff14;
+	position: absolute;
+	/* height: 100%; */
+	max-height: calc(100vh - 600px);
+	/* min-height: 500px; */
+	overflow-y: scroll;
+	border-radius: 0px 0px 5px 5px;
+	top: 100%;
+	z-index: 99;
+	background: #141415;
+}
+.al-show-search_result ul {
+    margin: 0;
+    padding: 0;
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+}
+.al-show-search_result ul li {
+    margin: 0;
+
+    /* padding: 10px; */
+    border-bottom: 1px solid #ffffff14;
+
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+.al_search_item .product-style-one {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    border-radius: 0;
+    border-bottom: 1px solid;
+    padding: 10px;
+}
+.al_search_item .product-style-one .card-thumbnail {
+    flex: 0 0 30%;
+    margin: 0;
+    max-width: 50px;
+}
+.al_search_item .product-style-one .p_content {
+    flex: 0 0 70%;
+}
+.al_search_selected .product-style-one::before {
+    border-radius: 0px;
+}
+.al_search_selected .product-style-one::after {
+    border-radius: 0px;
+    opacity: .8;
+}
+.al_search_selected .card-thumbnail a img {
+    transform: scale(1.1);
+}
+ /* search box css  */

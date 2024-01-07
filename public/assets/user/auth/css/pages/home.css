@@ -1,0 +1,133 @@
+.popular {
+    color: var(--white);
+  }
+  .popular img {
+    transition: 0.5s;
+  }
+  .popular img:hover {
+    opacity: 0.5;
+  }
+  .top-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .top-head a:hover {
+    color: var(--pink);
+  }
+  
+  .popular-bit {
+    position: absolute;
+    bottom: 14px;
+    left: 34px;
+    background: rgb(35 216 209 / 20%);
+    border: 2px solid rgb(35, 216, 209, 0.3);
+    padding: 11px; 
+  }
+  .popular-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  .timing,
+  .hight-bit {
+    padding: 0px 15px;
+  }
+  .popular-content p {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  .popular-content i {
+    color: var(--blue);
+    font-size: 16px;
+    font-weight: 100;
+  }
+  .popular-bit a {
+    background: rgba(11, 13, 33, 0.5);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    margin-top: 17px;
+    border: 2px solid var(--blue);
+    color: var(--white); 
+    font-weight: 500;
+    transition: 1s;
+  }
+  .popular-bit a:hover {
+    text-decoration: none;
+    background: rgba(11, 13, 33, 1);
+  }
+  
+  /* top seller section */
+  .top-seller-section img {
+    width: 60px;
+  }
+  .top-seller {
+    width: 200px;
+  }
+  .top-seller:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  .top-seller-section {
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+    overflow-y: clip;
+    padding-bottom: 18px;
+    padding-top: 6px;
+    padding-left: 10px;
+  }
+  .top-seller-section::-webkit-scrollbar {
+    height: 5px;
+  }
+  
+  /* Track */
+  .top-seller-section::-webkit-scrollbar-track {
+    background: rgb(255 255 255 / 20%);
+    border-radius: 50px;
+  }
+  
+  /* Handle */
+  .top-seller-section::-webkit-scrollbar-thumb {
+    background: var(--blue);
+    border-radius: 50px;
+  }
+  
+
+  
+  /* Hot Bids */
+  .card-section {
+    margin-bottom: 20px; 
+  }
+  .card-section h6 {
+    text-align: center;
+    background: var(--blue);
+    padding: 7px;
+    /* border-radius: 5px; */
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 0px;
+  }
+  
+  .card-section:hover {
+    box-shadow: 1px 1px 3px rgb(255 255 255 / 20%);
+    transform: scale(1.1);
+  }
+  .top-info {
+    margin-bottom: -16px;
+    color: var(--white);
+    font-size: 12px;
+  }
+  .top-info .left {
+    background: var(--light);
+    padding: 5px 12px;
+    border-radius: 5px;
+  }
+  
+  .top-info .right {
+    padding: 5px 12px;
+    border-radius: 5px;
+  }
+  
