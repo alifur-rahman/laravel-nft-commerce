@@ -1,0 +1,47 @@
+.details-info{
+
+}
+.details-info ul{
+    list-style: none;
+    padding: 0;
+}
+.details-info ul li{
+    display: inline;
+    margin-right: 15px;
+}
+.details-card{
+    border: 1px solid var(--white-3);
+}
+.details-card-head{
+    border-bottom: 1px solid var(--white-3);
+}
+.details-card-head p{
+    padding: 10px;
+    margin: 0; 
+}
+ 
+.details-card-head option{
+    background: transparent;
+}
+.details-card-head select{
+    background: transparent;
+}
+.details-card-head select option{
+    background: var(--background);
+}
+.details-card-body{
+    padding: 10px;
+    background: rgba(255,255,255, .02);
+}
+.table{
+    margin-bottom: 0;
+}
+.table td, .table th{
+    border-top: 1px solid var(--white-3);
+}
+
+@media only screen and (max-width: 400px) {
+    .details-card{
+        font-size: 11px;
+    }
+}

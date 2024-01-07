@@ -1,0 +1,25 @@
+.datatable{
+ 
+
+}
+.datatable-head{
+    background: var(--light); 
+    padding: 20px;
+}
+.datatable-search-box{
+    background: var(--background);
+    padding: 1px 12px;
+}
+.datatable-head a{
+    padding: 5px 10px;
+}
+.datatable tr{
+
+}
+.datatable tr td, .datatable tr th{
+    border-top: none;
+    padding: 20px;
+    background: var(--light);
+    border-bottom: 3px solid var(--background);
+}
+ 
